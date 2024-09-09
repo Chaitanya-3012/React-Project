@@ -1,0 +1,27 @@
+.entry{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    background-color: #ffebcd;
+}
+
+.entryField{
+    width: 50vw;
+    height: 5vh;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+}
+
+.submitButton{
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    font-size: 1rem;
+}
+
+.taskList{
+    background-color: cadetblue;
+    
+}
