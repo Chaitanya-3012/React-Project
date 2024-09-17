@@ -7,6 +7,7 @@ export default function Form() {
   const [todos, setTodos] = useState([]);
   function submitEvent(e) {
     e.preventDefault();
+    if (todo === "") return;
     setTodos([...todos, todo]);
     setTodo("");
   }
@@ -25,7 +26,7 @@ export default function Form() {
       </form>
       <div className="taskList">
       {todos.map((item) => (
-        <TaskItem key="{item}" task={item} />
+        <TaskItem key="{item}" task={item} todos={todos} setTodos={setTodos} />
       ))}
       </div>
     </>

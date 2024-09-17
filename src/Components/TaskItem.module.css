@@ -1,4 +1,40 @@
-.task{
-    display: list-item;
-    align-items: center;
+.task {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #e8e8e8;
+  width: 50vw;
+  height: 5vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 5vh;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgb(0, 0, 0,0.1);
+}
+
+.tasktext {
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancel {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 1.5vw;
+}
+
+.completed {
+  text-decoration: line-through;
 }
